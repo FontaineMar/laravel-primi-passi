@@ -1,0 +1,292 @@
+html{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.sidebar > img {
+  width:100%;
+  height:50px;
+  line-height:40px;
+  vertical-align: middle;
+  padding:3px;
+}
+
+.sidebar > ul > li{
+  list-style:none;
+  display:inline-block;
+  padding:0 , 3px;
+  line-height:40px;
+  vertical-align: middle;
+}
+
+.sidebar > ul > li > a {
+  text-decoration: none;
+  font-size:1.5rem;
+  color: #2c406c;
+}
+
+.sidebar > ul > a {
+  border: 1px solid #006aff;
+  color: #006aff;
+  line-height:40px;
+  vertical-align: middle;
+  font-size:1.5rem;
+  padding:3px;
+  border-radius:5px;
+}
+
+.hamb{
+  color:#006aff;
+  float:right;
+  font-size:2.2rem;
+  text-align: right;
+  line-height:60px;
+  vertical-align: middle;
+}
+
+.hero-bg{
+  background-image: url(img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  background-size: contain;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+.hero-left > h1{
+  font-size:5rem;
+  color:#fff;
+  padding:20px;
+}
+
+
+.hero-left > p{
+  font-size:2rem;
+  color:#fff;
+  padding:20px;
+
+}
+
+.hero-right{
+  background-color: #fff;
+  text-align:center;
+  margin:30px;
+  width:100%;
+}
+
+.hero-right > h3{
+  font-size: 3rem;
+
+}
+
+.hero-right :nth-child(2){
+  color: #006aff;
+
+}
+.hero-right > .team > p {
+  display: inline-block;
+}
+
+
+.font-white{
+  color:#fff;
+}
+
+.text-size > h3{
+  font-size:3.5rem;
+  padding-bottom:10px;
+}
+
+.text-size > p{
+  font-size:1.7rem;
+  padding-bottom:20px;
+}
+
+.text-size > h4 {
+color:#616e8b;
+font-size:2rem;
+}
+
+.bg-lightgrey{
+  background-color:#f3f5f9;
+  padding-bottom:5%;
+  padding-top:5%;
+}
+.bg-white{
+  background-color:#fff;
+  padding-top:5%;
+  padding-bottom:5%;
+  width:80%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.bg-blue{
+  background-color:#0158ff;
+  padding-bottom:5%;
+  padding-top:5%;
+}
+
+.bg-bluedark{
+  background-color:#010e28;
+  padding-bottom:5%;
+  padding-top:5%;
+}
+
+.customers > img {
+  width:16%;
+  height:80px;
+  display: inline-block;
+}
+
+.customers > a{
+  color:#006aff;
+  font-size:1.5rem;
+  text-decoration: none;
+}
+
+.menu-deploy > a{
+  border-left:1px solid #616e8b;
+  display: block;
+  color: #616e8b;
+  padding-left:3px;
+  vertical-align: middle;
+  font-size:1.7rem;
+  padding-top:10px;
+}
+
+.menu-deploy > div > img{
+max-width:30px;
+max-height:30px;
+}
+
+.menu-deploy > p{
+  color: #616e8b;
+  font-size:1.8rem;
+}
+
+.menu-deploy > h5{
+  font-size:1.7rem;
+}
+
+.menu-deploy > div > p {
+  color: #616e8b;
+  font-size:1.5rem;
+}
+
+.designed > p{
+  color: #616e8b;
+  font-size:1.8rem;
+}
+
+.designed > div > p {
+  color: #031b4e;
+  font-size:1.7rem;
+  text-align: center;
+  padding-top:10px;
+}
+
+.designed > img {
+  width:100%;
+  height:370px;
+}
+
+.chev > i {
+font-size:2rem;
+line-height:370px;
+vertical-align: middle;
+font-weight: bold;
+
+}
+
+.features > h5{
+    color: #031b4e;
+    font-size:1.7rem;
+}
+
+.features > div > p {
+  color: #031b4e;
+  font-size:1.7rem;
+}
+
+.features > div > a {
+  color:#006aff;
+  text-decoration: none;
+}
+
+.service > a{
+  float:right;
+  color:lightgrey;
+  text-decoration: none;
+  font-size:1.5rem;
+}
+
+.service{
+  border-bottom:1px solid lightgrey;
+}
+
+ .service :nth-child(1){
+  font-weight:bold;
+  color:#fff;
+  font-size:1.7rem;
+  display:inline-block;
+}
+
+.service :nth-child(2){
+  padding-left:50px;
+  font-size:1.5rem;
+  color:lightgrey;
+  display: inline-block;
+}
+
+.development{
+  background-color: #fff;
+}
+
+.development > a{
+  text-decoration: none;
+  color:#006aff;
+}
+
+.development > img{
+ margin-top:20%;
+ margin-bottom:10%;
+ width:80%;
+}
+
+.development :nth-child(2){
+  font-size:1.8rem;
+  color:grey;
+}
+
+.get > p > button {
+  color:#006aff;
+}
+
+.foot{
+  color: #7f8693;
+}
+
+.foot > h5{
+  color:#fff;
+  font-weight: 600;
+}
+/* Bruttissimo */
+.no-bord{
+  border:none;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .customers > img{
+    width:30%;
+
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .customers > img{
+    width:48%;
+  }
+}
