@@ -24,3 +24,6 @@ Route::get('/home', function () {
 Route::get('/digital', function () {
     return view('next-project');
 });
+
+Route::get('/dischi', 'DischiController@index');
+
